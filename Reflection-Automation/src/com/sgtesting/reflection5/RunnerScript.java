@@ -29,7 +29,7 @@ public class RunnerScript {
 		{
 			fin=new FileInputStream(".\\DataFiles\\MethodNames.xlsx");
 			wb=new XSSFWorkbook(fin);
-			sh=wb.getSheet("Sheet1");
+			sh=wb.getSheet("Sheet2");
 			int rc=sh.getPhysicalNumberOfRows();
 			for(int r=1;r<rc;r++)
 			{

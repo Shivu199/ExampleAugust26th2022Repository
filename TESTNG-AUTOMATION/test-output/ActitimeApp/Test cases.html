@@ -1,0 +1,429 @@
+<html>
+<head>
+<title>TestNG:  Test cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>70/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 12 19:03:21 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>326 seconds (326048 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment2.createUser()'><b>createUser</b><br>Test class: com.sgtesting.WebAssignments.Assignment2<br>Parameters: demo, A, User1, demo@gmail.com, demoUser1, 1234, 1234</td>
+<td></td>
+<td>13</td>
+<td>com.sgtesting.WebAssignments.Assignment2@741a8937</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment4.login()'><b>login</b><br>Test class: com.sgtesting.WebAssignments.Assignment4<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.WebAssignments.Assignment4@306e95ec</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment2.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.WebAssignments.Assignment2</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.WebAssignments.Assignment2@741a8937</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignments1DataProvider.logout()'><b>logout</b><br>Test class: com.sgtesting.WebAssignments.Assignments1DataProvider</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.WebAssignments.Assignments1DataProvider@e15b7e8</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment4.deleteCustomer()'><b>deleteCustomer</b><br>Test class: com.sgtesting.WebAssignments.Assignment4</td>
+<td></td>
+<td>12</td>
+<td>com.sgtesting.WebAssignments.Assignment4@306e95ec</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment5.minimizeFlyOutwindow()'><b>minimizeFlyOutwindow</b><br>Test class: com.sgtesting.WebAssignments.Assignment5</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.WebAssignments.Assignment5@52af26ee</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment4.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.WebAssignments.Assignment4</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.WebAssignments.Assignment4@306e95ec</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment8.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.WebAssignments.Assignment8</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.WebAssignments.Assignment8@bae7dc0</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment5.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.WebAssignments.Assignment5</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.WebAssignments.Assignment5@52af26ee</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment4.closeApp()'><b>closeApp</b><br>Test class: com.sgtesting.WebAssignments.Assignment4</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment4@306e95ec</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignments1DataProvider.navigate()'><b>navigate</b><br>Test class: com.sgtesting.WebAssignments.Assignments1DataProvider</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.WebAssignments.Assignments1DataProvider@e15b7e8</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment6.deleteProject()'><b>deleteProject</b><br>Test class: com.sgtesting.WebAssignments.Assignment6</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment6@6fd83fc1</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment4.logout()'><b>logout</b><br>Test class: com.sgtesting.WebAssignments.Assignment4</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.WebAssignments.Assignment4@306e95ec</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment8.deleteCustomer()'><b>deleteCustomer</b><br>Test class: com.sgtesting.WebAssignments.Assignment8</td>
+<td></td>
+<td>12</td>
+<td>com.sgtesting.WebAssignments.Assignment8@bae7dc0</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment2.minimizeFlyOutwindow()'><b>minimizeFlyOutwindow</b><br>Test class: com.sgtesting.WebAssignments.Assignment2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.WebAssignments.Assignment2@741a8937</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment6.navigate()'><b>navigate</b><br>Test class: com.sgtesting.WebAssignments.Assignment6</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment6@6fd83fc1</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment8.logout()'><b>logout</b><br>Test class: com.sgtesting.WebAssignments.Assignment8</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.WebAssignments.Assignment8@bae7dc0</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment6.creatProject()'><b>creatProject</b><br>Test class: com.sgtesting.WebAssignments.Assignment6<br>Parameters: Gaganayana</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment6@6fd83fc1</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment1.deleteUser()'><b>deleteUser</b><br>Test class: com.sgtesting.WebAssignments.Assignment1</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.WebAssignments.Assignment1@7205765b</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment7.closeApp()'><b>closeApp</b><br>Test class: com.sgtesting.WebAssignments.Assignment7</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment7@4f2b503c</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment6.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.WebAssignments.Assignment6</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment6@6fd83fc1</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment6.closeApp()'><b>closeApp</b><br>Test class: com.sgtesting.WebAssignments.Assignment6</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment6@6fd83fc1</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment6.logout()'><b>logout</b><br>Test class: com.sgtesting.WebAssignments.Assignment6</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment6@6fd83fc1</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment8.CreatTask()'><b>CreatTask</b><br>Test class: com.sgtesting.WebAssignments.Assignment8<br>Parameters: NewTask</td>
+<td></td>
+<td>11</td>
+<td>com.sgtesting.WebAssignments.Assignment8@bae7dc0</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment7.DeleteProject()'><b>DeleteProject</b><br>Test class: com.sgtesting.WebAssignments.Assignment7</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.WebAssignments.Assignment7@4f2b503c</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment2.navigate()'><b>navigate</b><br>Test class: com.sgtesting.WebAssignments.Assignment2</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.WebAssignments.Assignment2@741a8937</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment2.deleteUser()'><b>deleteUser</b><br>Test class: com.sgtesting.WebAssignments.Assignment2</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.WebAssignments.Assignment2@741a8937</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment6.addCustomer()'><b>addCustomer</b><br>Test class: com.sgtesting.WebAssignments.Assignment6<br>Parameters: Akash</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment6@6fd83fc1</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignments1DataProvider.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.WebAssignments.Assignments1DataProvider</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignments1DataProvider@e15b7e8</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment6.minimizeFlyOutwindow()'><b>minimizeFlyOutwindow</b><br>Test class: com.sgtesting.WebAssignments.Assignment6</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment6@6fd83fc1</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment5.closeApp()'><b>closeApp</b><br>Test class: com.sgtesting.WebAssignments.Assignment5</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment5@52af26ee</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment5.addCustomer()'><b>addCustomer</b><br>Test class: com.sgtesting.WebAssignments.Assignment5<br>Parameters: Akash</td>
+<td></td>
+<td>13</td>
+<td>com.sgtesting.WebAssignments.Assignment5@52af26ee</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment8.navigate()'><b>navigate</b><br>Test class: com.sgtesting.WebAssignments.Assignment8</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.WebAssignments.Assignment8@bae7dc0</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignments1DataProvider.minimizeFlyOutwindow()'><b>minimizeFlyOutwindow</b><br>Test class: com.sgtesting.WebAssignments.Assignments1DataProvider</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.WebAssignments.Assignments1DataProvider@e15b7e8</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment5.deleteCustomer()'><b>deleteCustomer</b><br>Test class: com.sgtesting.WebAssignments.Assignment5</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.WebAssignments.Assignment5@52af26ee</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment7.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.WebAssignments.Assignment7</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.WebAssignments.Assignment7@4f2b503c</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment1.login()'><b>login</b><br>Test class: com.sgtesting.WebAssignments.Assignment1<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.WebAssignments.Assignment1@7205765b</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment7.creatProject()'><b>creatProject</b><br>Test class: com.sgtesting.WebAssignments.Assignment7<br>Parameters: TATAPROJECT</td>
+<td></td>
+<td>12</td>
+<td>com.sgtesting.WebAssignments.Assignment7@4f2b503c</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment8.login()'><b>login</b><br>Test class: com.sgtesting.WebAssignments.Assignment8<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.WebAssignments.Assignment8@bae7dc0</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment7.addCustomer()'><b>addCustomer</b><br>Test class: com.sgtesting.WebAssignments.Assignment7<br>Parameters: RAJESH</td>
+<td></td>
+<td>13</td>
+<td>com.sgtesting.WebAssignments.Assignment7@4f2b503c</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment2.closeApp()'><b>closeApp</b><br>Test class: com.sgtesting.WebAssignments.Assignment2</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment2@741a8937</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment1.createUser()'><b>createUser</b><br>Test class: com.sgtesting.WebAssignments.Assignment1<br>Parameters: demo, A, User1, demo@gmail.com, demoUser1, 1234, 1234</td>
+<td></td>
+<td>13</td>
+<td>com.sgtesting.WebAssignments.Assignment1@7205765b</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment7.navigate()'><b>navigate</b><br>Test class: com.sgtesting.WebAssignments.Assignment7</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.WebAssignments.Assignment7@4f2b503c</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment2.logout()'><b>logout</b><br>Test class: com.sgtesting.WebAssignments.Assignment2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.WebAssignments.Assignment2@741a8937</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment8.addCustomer()'><b>addCustomer</b><br>Test class: com.sgtesting.WebAssignments.Assignment8<br>Parameters: Isro</td>
+<td></td>
+<td>13</td>
+<td>com.sgtesting.WebAssignments.Assignment8@bae7dc0</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment5.modifyCustomer()'><b>modifyCustomer</b><br>Test class: com.sgtesting.WebAssignments.Assignment5</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.WebAssignments.Assignment5@52af26ee</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment8.creatProject()'><b>creatProject</b><br>Test class: com.sgtesting.WebAssignments.Assignment8<br>Parameters: Gaganayana</td>
+<td></td>
+<td>12</td>
+<td>com.sgtesting.WebAssignments.Assignment8@bae7dc0</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment8.closeApp()'><b>closeApp</b><br>Test class: com.sgtesting.WebAssignments.Assignment8</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment8@bae7dc0</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignments1DataProvider.deleteUser()'><b>deleteUser</b><br>Test class: com.sgtesting.WebAssignments.Assignments1DataProvider</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.WebAssignments.Assignments1DataProvider@e15b7e8</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment5.logout()'><b>logout</b><br>Test class: com.sgtesting.WebAssignments.Assignment5</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.WebAssignments.Assignment5@52af26ee</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment7.ModifyProject()'><b>ModifyProject</b><br>Test class: com.sgtesting.WebAssignments.Assignment7</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.WebAssignments.Assignment7@4f2b503c</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment4.minimizeFlyOutwindow()'><b>minimizeFlyOutwindow</b><br>Test class: com.sgtesting.WebAssignments.Assignment4</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.WebAssignments.Assignment4@306e95ec</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment1.navigate()'><b>navigate</b><br>Test class: com.sgtesting.WebAssignments.Assignment1</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.WebAssignments.Assignment1@7205765b</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment1.minimizeFlyOutwindow()'><b>minimizeFlyOutwindow</b><br>Test class: com.sgtesting.WebAssignments.Assignment1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.WebAssignments.Assignment1@7205765b</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment4.navigate()'><b>navigate</b><br>Test class: com.sgtesting.WebAssignments.Assignment4</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.WebAssignments.Assignment4@306e95ec</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment4.addCustomer()'><b>addCustomer</b><br>Test class: com.sgtesting.WebAssignments.Assignment4<br>Parameters: SHIVU</td>
+<td></td>
+<td>13</td>
+<td>com.sgtesting.WebAssignments.Assignment4@306e95ec</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment7.login()'><b>login</b><br>Test class: com.sgtesting.WebAssignments.Assignment7<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.WebAssignments.Assignment7@4f2b503c</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment7.minimizeFlyOutwindow()'><b>minimizeFlyOutwindow</b><br>Test class: com.sgtesting.WebAssignments.Assignment7</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.WebAssignments.Assignment7@4f2b503c</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignments1DataProvider.login()'><b>login</b><br>Test class: com.sgtesting.WebAssignments.Assignments1DataProvider<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.WebAssignments.Assignments1DataProvider@e15b7e8</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment5.login()'><b>login</b><br>Test class: com.sgtesting.WebAssignments.Assignment5<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.WebAssignments.Assignment5@52af26ee</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment7.logout()'><b>logout</b><br>Test class: com.sgtesting.WebAssignments.Assignment7</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.WebAssignments.Assignment7@4f2b503c</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignments1DataProvider.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.WebAssignments.Assignments1DataProvider</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.WebAssignments.Assignments1DataProvider@e15b7e8</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment1.closeApp()'><b>closeApp</b><br>Test class: com.sgtesting.WebAssignments.Assignment1</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment1@7205765b</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignments1DataProvider.createUser()'><b>createUser</b><br>Test class: com.sgtesting.WebAssignments.Assignments1DataProvider<br>Parameters: demo, A, User1</td>
+<td></td>
+<td>12</td>
+<td>com.sgtesting.WebAssignments.Assignments1DataProvider@e15b7e8</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment1.logout()'><b>logout</b><br>Test class: com.sgtesting.WebAssignments.Assignment1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.WebAssignments.Assignment1@7205765b</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment5.navigate()'><b>navigate</b><br>Test class: com.sgtesting.WebAssignments.Assignment5</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.WebAssignments.Assignment5@52af26ee</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment1.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.WebAssignments.Assignment1</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.WebAssignments.Assignment1@7205765b</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment8.minimizeFlyOutwindow()'><b>minimizeFlyOutwindow</b><br>Test class: com.sgtesting.WebAssignments.Assignment8</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.WebAssignments.Assignment8@bae7dc0</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment2.login()'><b>login</b><br>Test class: com.sgtesting.WebAssignments.Assignment2<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.WebAssignments.Assignment2@741a8937</td></tr>
+<tr>
+<td title='com.sgtesting.WebAssignments.Assignment6.login()'><b>login</b><br>Test class: com.sgtesting.WebAssignments.Assignment6<br>Parameters: admin, manager</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.WebAssignments.Assignment6@6fd83fc1</td></tr>
+</table><p>
+</body>
+</html>
