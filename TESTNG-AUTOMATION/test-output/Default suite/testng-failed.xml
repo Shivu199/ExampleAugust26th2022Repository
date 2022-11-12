@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sgtesting.softassertion.AssertEqualsDemo">
+      <class name="com.sgtesting.WebAssignments.Assignment2">
         <methods>
-          <include name="assertNotEqualsDemo"/>
+          <include name="creatuser"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.sgtesting.softassertion.AssertEqualsDemo -->
+      </class> <!-- com.sgtesting.WebAssignments.Assignment2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

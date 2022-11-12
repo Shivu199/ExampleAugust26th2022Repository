@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Create User">
+<test name="Assignments First">
+<classes>
+<class name="com.sgtesting.WebAssignments.Assignment1"></class>
+</classes>
+</test>
+</suite>
