@@ -1,4 +1,4 @@
-package com.Assignments.programs;
+package com.sgtesting.ACTITIME_ASSINGMENTS;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -23,7 +23,7 @@ public class Assignment1 {
 	{
 		try
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\\\ExampleAutomation\\\\Automation\\\\Web-Automation\\\\Library\\\\drivers\\\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "G:\\GitRepository\\CurrentWorkSpace\\ExampleAugust26th2022Repository\\Web-Automation\\Library\\driver\\chromedriver.exe");
 			oBrowser=new ChromeDriver();
 		}catch(Exception e)
 		{
