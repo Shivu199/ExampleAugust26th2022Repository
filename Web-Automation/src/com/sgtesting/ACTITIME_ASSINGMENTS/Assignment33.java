@@ -1,4 +1,4 @@
-package com.Assignments.programs;
+package com.sgtesting.ACTITIME_ASSINGMENTS;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
